@@ -1,0 +1,42 @@
+
+public class BookEx {
+	
+	void takeOff() {
+		System.out.println("엔진을 구동하다");
+		System.out.println("속도를 높이다");
+		System.out.println("비행하다");
+		
+	}
+
+	/*
+	public boolean takeOff() {
+		System.out.println("엔진을 시동하다");
+		System.out.println("엔진 시동이 실패하다");
+		return false;
+	}
+	*/
+	
+	
+	public static void main(String[] args) {
+		
+		Armor suit1 = new Armor();
+		Armor suit2 = new Armor();
+		Armor suit3 = new Armor();
+		
+		suit1.setName("mark6");
+		suit1.setHeight(180);
+		
+		suit2.setName("mark16");
+		suit2.setHeight(220);
+		
+		suit3.setName("mark38");
+		suit3.setHeight(200);
+		
+		System.out.println(suit1.getName() + ":" + suit1.getHeight());
+		System.out.println(suit2.getName() + ":" + suit2.getHeight());
+		System.out.println(suit3.getName() + ":" + suit3.getHeight());
+		
+	}
+	
+	
+}

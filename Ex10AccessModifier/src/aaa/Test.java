@@ -1,0 +1,7 @@
+package aaa;
+
+class Test {
+	
+	
+	
+}
